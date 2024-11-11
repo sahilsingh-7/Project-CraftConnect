@@ -5,8 +5,8 @@ import "./index.css";
 import { ClerkProvider } from "@clerk/clerk-react";
 import { shadesOfPurple } from "@clerk/themes";
 
-// Import your publishable key
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
+// Directly adding the publishable key
+const PUBLISHABLE_KEY = "pk_test_bWFnaWNhbC1oZWRnZWhvZy02OC5jbGVyay5hY2NvdW50cy5kZXYk";
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
