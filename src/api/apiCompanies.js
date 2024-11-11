@@ -40,7 +40,7 @@ export async function addNewCompany(token, _, companyData) {
 
   if (error) {
     console.error(error);
-    throw new Error("Error submitting Companys");
+    throw new Error("Error submitting Companies");
   }
 
   return data;

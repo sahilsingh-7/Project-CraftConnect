@@ -33,7 +33,7 @@ const Header = () => {
     <>
       <nav className="py-4 flex justify-between items-center">
         <Link to="/">
-        <img src="/logo.webp" className="h-28 w-auto" alt="CraftConnect Logo" />
+        <img src="/logo.jpg" className="h-40 w-auto" alt="CraftConnect Logo" />
         </Link>
 
         <div className="flex gap-8">
